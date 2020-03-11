@@ -38,7 +38,7 @@ a:visited
 {
 	color:#771500;
 }
-.foot
+.index_go
 {
 	font size: 6px;
 	text-align: left;
@@ -50,4 +50,12 @@ a
 ul
 {
 	color: red;
+}
+.contact
+{
+	text-align: right;
+	position: fixed;
+    bottom: 10px;
+	border: 3px red solid;
+	border-radius: 10px;
 }
