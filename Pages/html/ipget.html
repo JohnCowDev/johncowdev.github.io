@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Avoir mon ip</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="..\..\Fichiers\Images\Vignettes\favicon.ico" />
+	<link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+
+</body>
+<script type="application/javascript" class="getip">
+  function getIP(json) {
+    document.write("Ton ip est : ", json.ip);
+  }
+</script>
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+</html>

@@ -1,38 +1,39 @@
-p
-{
-    color: red;
-}
 h1
 {
-	color: red;
+	--main-text-color: black;
+	color: var(--main-text-color);
 	text-align: center;
-	border: 3px red solid;
+	border: 3px var(--main-text-color) solid;
 	border-radius: 10px;
+	
+}
+p
+{
+    color: var(--main-text-color);
 }
 h2
 {
-	color: red;
+	color: var(--main-text-color);
 	text-align: center;
 }
 h3
 {
-	color: #ad2204;
+	color: var(--main-text-color);
+	text-align: left;
 }
 body
 {
-
-	background-color: black;
-	color:white;
+	color:var(--main-text-color);
 }
 a
 {
-	color: red;
+	color: var(--main-text-color);
 	font-style: italic;
 }
 a:hover
 {
    text-decoration: underline;
-   color: red;
+   color: var(--main-text-color);
 }
 a:visited
 {
@@ -49,13 +50,38 @@ a
 }
 ul
 {
-	color: red;
+	color: var(--main-text-color);
 }
 .contact
 {
 	text-align: right;
 	position: fixed;
     bottom: 10px;
-	border: 3px red solid;
+	border: 3px var(--main-text-color) solid;
 	border-radius: 10px;
+}
+.back
+{
+	text-align: left;
+}
+.selecter
+{
+	border:3px black solid;
+	border-radius: 10px;
+	display:table;
+    text-align: left;	
+}
+.logo
+{
+	
+}
+.twitter-follow-button
+{
+	text-align: right;
+}
+.getip
+{
+	font-size: 200px
+	color : red;
+
 }
